@@ -11,6 +11,9 @@ call plug#begin('~/.config/nvim/plugged')
 
 "Plugin list ------------------------------------------------------------------
 
+"For html5 syntax
+Plug 'othree/html5.vim'
+
 "End plugin list --------------------------------------------------------------
 call plug#end()
 
