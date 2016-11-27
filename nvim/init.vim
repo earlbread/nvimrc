@@ -17,6 +17,13 @@ call plug#end()
 "Syntax highlighting.
 syntax on
 
+"Set line number
+set nu
+
+"Set Incremental searching and command
+set incsearch
+set inccommand=split
+
 "Softtab -- use spaces instead tabs.
 set expandtab
 set tabstop=4 shiftwidth=4 sts=4
