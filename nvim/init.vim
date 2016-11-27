@@ -23,6 +23,9 @@ syntax on
 "Set line number
 set nu
 
+"Use system clipboard
+set clipboard^=unnamed,unnamedplus
+
 "Set Incremental searching and command
 set incsearch
 set inccommand=split
