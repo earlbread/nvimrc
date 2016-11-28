@@ -11,6 +11,9 @@ call plug#begin('~/.config/nvim/plugged')
 
 "Plugin list ------------------------------------------------------------------
 
+"For color scheme
+Plug 'junegunn/seoul256.vim'
+
 "For syntax
 Plug 'othree/html5.vim'
 Plug 'lepture/vim-jinja'
@@ -102,3 +105,5 @@ set novisualbell
 
 "Alias :W to :w
 cnoreabbrev W w
+
+colo seoul256
