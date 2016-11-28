@@ -17,6 +17,11 @@ Plug 'junegunn/seoul256.vim'
 "For syntax
 Plug 'othree/html5.vim'
 Plug 'lepture/vim-jinja'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'pangloss/vim-javascript'
+
+"Quantify my vim usage
+Plug 'wakatime/vim-wakatime'
 
 "End plugin list --------------------------------------------------------------
 call plug#end()
