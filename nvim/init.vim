@@ -11,8 +11,9 @@ call plug#begin('~/.config/nvim/plugged')
 
 "Plugin list ------------------------------------------------------------------
 
-"For html5 syntax
+"For syntax
 Plug 'othree/html5.vim'
+Plug 'lepture/vim-jinja'
 
 "End plugin list --------------------------------------------------------------
 call plug#end()
@@ -65,6 +66,7 @@ au! BufRead,BufNewFile *.sass setfiletype sass
 au! BufRead,BufNewFile *.scss setfiletype scss
 au! BufRead,BufNewFile *.haml setfiletype haml
 au! BufRead,BufNewFile *.less setfiletype less
+au! BufRead,BufNewFile *.html,*.htm,*.shtml,*.stm set ft=jinja
 
 "These languages have their own tab/indent settings.
 au FileType cpp    setl ts=2 sw=2 sts=2
