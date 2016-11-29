@@ -20,6 +20,9 @@ Plug 'lepture/vim-jinja'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'pangloss/vim-javascript'
 
+"Trailing Whitespace
+Plug 'ntpeters/vim-better-whitespace'
+
 "Quantify my vim usage
 Plug 'wakatime/vim-wakatime'
 
