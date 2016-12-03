@@ -117,6 +117,7 @@ set novisualbell
 "Alias :W to :w
 cnoreabbrev W w
 
+"Use seoul256 color scheme
 colo seoul256
 
 "Use vim-easy-align
