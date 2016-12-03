@@ -26,6 +26,9 @@ Plug 'ntpeters/vim-better-whitespace'
 "Quantify my vim usage
 Plug 'wakatime/vim-wakatime'
 
+"Alignment Plugin
+Plug 'junegunn/vim-easy-align'
+
 "End plugin list --------------------------------------------------------------
 call plug#end()
 
@@ -115,3 +118,10 @@ set novisualbell
 cnoreabbrev W w
 
 colo seoul256
+
+"Use vim-easy-align
+"Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+"Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
