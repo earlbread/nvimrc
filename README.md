@@ -1,22 +1,12 @@
-[Hong Minhee][]'s [Neovim][] settings
+Seunghun Lee's [Neovim][] settings
 =====================================
 
-It contains [Neovim] settings used by Hong Minhee. How to install it is:
+It contains [Neovim] settings used by Seunghun Lee. How to install it is:
 
     ./install.sh
 
-[Hong Minhee]: https://hongminhee.org/
+It is forked from [Hong Minhee's Neovim][] settings
+
+
 [Neovim]: http://neovim.io/
-
-
-Required fonts
---------------
-
-It uses different fonts for each platform.
-
-- [Source Code Pro][] on Mac
-- [Ubuntu Mono][] on GNOME
-- Consolas on Windows, which is builtin
-
-[Source Code Pro]: http://adobe-fonts.github.io/source-code-pro/
-[Ubuntu Mono]: http://font.ubuntu.com/
+[Hong Minhee's Neovim]: https://github.com/dahlia/nvimrc
