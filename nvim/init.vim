@@ -19,7 +19,7 @@ Plug 'othree/html5.vim'
 Plug 'lepture/vim-jinja'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'pangloss/vim-javascript'
-Plug 'lambdatoast/elm.vim'
+Plug 'ElmCast/elm-vim'
 
 "Trailing Whitespace
 Plug 'ntpeters/vim-better-whitespace'
@@ -127,3 +127,6 @@ xmap ga <Plug>(EasyAlign)
 
 "Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
+
+"Elm format
+let g:elm_format_autosave = 1
