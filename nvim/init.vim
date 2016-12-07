@@ -19,6 +19,7 @@ Plug 'othree/html5.vim'
 Plug 'lepture/vim-jinja'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'pangloss/vim-javascript'
+Plug 'lambdatoast/elm.vim'
 
 "Trailing Whitespace
 Plug 'ntpeters/vim-better-whitespace'
