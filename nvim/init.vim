@@ -31,6 +31,9 @@ Plug 'wakatime/vim-wakatime'
 "Alignment Plugin
 Plug 'junegunn/vim-easy-align'
 
+"FZF
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
 "Git commit message
 Plug 'rhysd/committia.vim'
 
