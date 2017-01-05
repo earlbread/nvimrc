@@ -21,6 +21,7 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'ElmCast/elm-vim'
+Plug 'neovimhaskell/haskell-vim'
 
 "Trailing Whitespace
 Plug 'ntpeters/vim-better-whitespace'
