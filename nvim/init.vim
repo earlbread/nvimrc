@@ -31,6 +31,9 @@ Plug 'wakatime/vim-wakatime'
 "Alignment Plugin
 Plug 'junegunn/vim-easy-align'
 
+"Git commit message
+Plug 'rhysd/committia.vim'
+
 "End plugin list --------------------------------------------------------------
 call plug#end()
 
