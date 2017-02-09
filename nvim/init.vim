@@ -141,3 +141,6 @@ let g:jsx_ext_required = 0
 
 "Elm format
 let g:elm_format_autosave = 1
+
+"Press backspace in visual mode to delete without copy
+vnoremap <backspace> "_d
