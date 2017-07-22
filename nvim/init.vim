@@ -45,6 +45,9 @@ call plug#end()
 "Syntax highlighting.
 syntax on
 
+"Use mouse
+set mouse=a
+
 "Set line number
 set nu
 
