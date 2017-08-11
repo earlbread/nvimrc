@@ -23,6 +23,7 @@ Plug 'mxw/vim-jsx'
 Plug 'ElmCast/elm-vim'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'keith/swift.vim'
+Plug 'spoqa/nirum.vim'
 
 "Trailing Whitespace
 Plug 'ntpeters/vim-better-whitespace'
