@@ -74,8 +74,8 @@ endif
 
 set backspace=2
 
-"Detect modeline hints.
-set modeline
+"Ignore modeline hints.
+set nomodeline
 
 "Disable bell
 set visualbell t_vb=
