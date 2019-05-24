@@ -42,6 +42,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 "Git commit message
 Plug 'rhysd/committia.vim'
 
+"Switch English IME whenever vim switchs to normal mode.
+Plug 'simnalamburt/vim-tiny-ime', { 'do' : './build' }
 "End plugin list --------------------------------------------------------------
 call plug#end()
 
