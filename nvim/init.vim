@@ -44,6 +44,10 @@ Plug 'rhysd/committia.vim'
 
 "Switch English IME whenever vim switchs to normal mode.
 Plug 'simnalamburt/vim-tiny-ime', { 'do' : './build' }
+
+"Surround
+Plug 'tpope/vim-surround'
+
 "End plugin list --------------------------------------------------------------
 call plug#end()
 
