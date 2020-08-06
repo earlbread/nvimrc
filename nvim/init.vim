@@ -26,6 +26,8 @@ Plug 'spoqa/nirum.vim'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'rust-lang/rust.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 
 "Trailing Whitespace
 Plug 'ntpeters/vim-better-whitespace'
@@ -47,6 +49,9 @@ Plug 'simnalamburt/vim-tiny-ime', { 'do' : './build' }
 
 "Surround
 Plug 'tpope/vim-surround'
+
+"EditorConfig
+Plug 'editorconfig/editorconfig-vim'
 
 "End plugin list --------------------------------------------------------------
 call plug#end()
