@@ -110,6 +110,7 @@ au! BufRead,BufNewFile *.less setfiletype less
 au! BufRead,BufNewFile *.html,*.htm,*.shtml,*.stm set ft=jinja
 
 "These languages have their own tab/indent settings.
+au FileType go           setl ts=8 sw=8 sts=0
 au FileType cpp          setl ts=2 sw=2 sts=2
 au FileType ruby         setl ts=2 sw=2 sts=2
 au FileType yaml         setl ts=2 sw=2 sts=2
