@@ -2,9 +2,7 @@
 set nocompatible
 
 "True colors
-if $TERM_PROGRAM == "iTerm.app"
-  set termguicolors
-endif
+set termguicolors
 
 "vim-plug
 call plug#begin('~/.config/nvim/plugged')
