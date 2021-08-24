@@ -26,6 +26,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'google/vim-jsonnet'
 
 "Trailing Whitespace
 Plug 'ntpeters/vim-better-whitespace'
