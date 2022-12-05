@@ -27,6 +27,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'google/vim-jsonnet'
+Plug 'hashivim/vim-terraform'
 
 "Trailing Whitespace
 Plug 'ntpeters/vim-better-whitespace'
@@ -51,6 +52,9 @@ Plug 'tpope/vim-surround'
 
 "EditorConfig
 Plug 'editorconfig/editorconfig-vim'
+
+"repeat.vim
+Plug 'tpope/vim-repeat'
 
 "End plugin list --------------------------------------------------------------
 call plug#end()
